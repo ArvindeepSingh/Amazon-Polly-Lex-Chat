@@ -4,8 +4,6 @@ Welcome to the Amazon Polly Lex Chat project that I made following an AWS worksh
 
 ## Goals
 
-By the end of this tutorial, you will achieve the following objectives:
-
 1. **Create Your Amazon Lex Bot:**
    - Learn how to create your Amazon Lex chatbot from scratch.
 
