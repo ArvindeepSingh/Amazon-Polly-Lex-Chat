@@ -1,18 +1,78 @@
-# Amazon-Polly-Lex-Chat
+# Amazon Polly Lex Chat
 
-I'll walk you through the process of deploying an Amazon Lex bot and also demonstrate how to integrate Speech Synthesis Markup Language (SSML) with Amazon Polly to bring text to life through lifelike speech.
+Welcome to the Amazon Polly Lex Chat project taht I made following an AWS workshop. I'll be walking you through the process of deploying an Amazon Lex bot and demonstrate how to integrate Speech Synthesis Markup Language (SSML) with Amazon Polly to create lifelike speech.
 
-# Goals:
+## Goals
 
-⚪ Create an Amazon Lex Bot: By the end of this workshop, participants should be able to create a new Amazon Lex bot, gaining a fundamental understanding of chatbot creation.
+By the end of this tutorial, you will achieve the following objectives:
 
-⚪ Integrate with Amazon Connect: Participants should learn how to seamlessly integrate their Lex bot with an Amazon Connect instance, making their chatbot available for customer interactions.
+1. **Create Your Amazon Lex Bot:**
+   - Learn how to create your Amazon Lex chatbot from scratch.
 
-⚪ Build a Contact Flow: The workshop should enable participants to build a contact flow using their Lex bot, allowing them to design a structured conversation flow for customers.
+2. **Integrate with Amazon Connect:**
+   - Seamlessly integrate your Lex bot with Amazon Connect for real customer interactions.
 
-⚪ Enhance Text-to-Speech (TTS): Participants should be able to enhance the text-to-speech capabilities of their chatbot using SSML tags and Amazon Polly, resulting in more natural and lifelike speech output.
+3. **Build a Structured Contact Flow:**
+   - Master the art of building a structured conversation flow for guiding customers effectively.
 
-# Let's Begin!
+4. **Enhance Text-to-Speech (TTS):**
+   - Improve your chatbot's text-to-speech capabilities using SSML tags and Amazon Polly for natural, lifelike speech output.
 
-Login to the AWS Console using your Administrator-level account created earlier.
+## Let's Get Started!
 
+### Part 1 - Create Your Amazon Lex Bot
+
+1. **Log in to AWS Console:** Use your Administrator-level AWS account.
+
+2. **Navigate to Amazon Lex:**
+   - Type "Amazon Lex" in the search bar.
+   - Select "Amazon Lex - Build Voice and Text Chatbots."
+
+3. **Create a New Lex Bot:**
+   - Choose "Create bot."
+   - Configure bot settings and add languages.
+
+4. **Create a New Intent:**
+   - Give the intent a unique name.
+   - Define sample utterances.
+   - Create and configure custom slot types for PizzaSize, PizzaCrust, and PizzaToppings.
+   - Define fulfillment options.
+
+5. **Build and Test Your Bot:**
+   - Test your bot using the built-in testing interface.
+
+6. **Publish Your Bot:**
+   - Create a new version and alias for deployment.
+
+### Part 2 - Integrate with Amazon Connect
+
+1. **Open Amazon Connect Console:**
+   - Ensure the region matches your Amazon Lex bot.
+
+2. **Add Lex Bot to Contact Flows:**
+   - Select the Amazon Lex bot and alias to integrate it into existing contact flows.
+
+### Part 3 - Create Contact Flow in Amazon Connect
+
+1. **Open Amazon Connect Console:** Log in to Amazon Connect.
+
+2. **Create a Contact Flow:**
+   - Name it, e.g., "PizzaOrder_Flow."
+
+3. **Design the Contact Flow:**
+   - Set voice, get customer input, and configure slot attributes.
+   - Add play prompts for responses.
+   - Verify and publish the contact flow.
+
+4. **Assign the Contact Flow to a Phone Number:**
+   - Choose the phone number and assign the "PizzaOrder_Flow" contact flow.
+
+### Part 4 - Modify SSML in Contact Flow
+
+1. **Open Amazon Connect Console:** Log in to Amazon Connect.
+
+2. **Edit Contact Flow:**
+   - Modify the Play prompt block after Set contact attributes.
+   - Use SSML to enhance the response.
+
+3. **Publish the Updated Contact Flow:**
