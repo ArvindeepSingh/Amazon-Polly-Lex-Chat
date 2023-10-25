@@ -6,10 +6,10 @@ Welcome to the Amazon Polly Lex Chat project that I made following an AWS worksh
 
 This project includes the following key objectives:
 
-1. **Create Your Amazon Lex Bot:**
+1. **Creating an Amazon Lex Bot:**
    - Learn how to create an Amazon Lex chatbot from scratch.
 
-2. **Integrate with Amazon Connect:**
+2. **Integrating with Amazon Connect:**
    - Seamlessly integrate a Lex bot with Amazon Connect for real customer interactions.
 
 3. **Build a Structured Contact Flow:**
@@ -20,7 +20,7 @@ This project includes the following key objectives:
 
 ## Project Overview
 
-This project provides a detailed overview of the steps involved:
+Here's an overview of the steps involved to create the project:
 
 ### Part 1 - Creating Your Amazon Lex Bot
 
