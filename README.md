@@ -1,7 +1,9 @@
 # Amazon-Polly-Lex-Chat
+
 I'll walk you through the process of deploying an Amazon Lex bot and also demonstrate how to integrate Speech Synthesis Markup Language (SSML) with Amazon Polly to bring text to life through lifelike speech.
 
-Goals:
+# Goals:
+
 ⚪ Create an Amazon Lex Bot: By the end of this workshop, participants should be able to create a new Amazon Lex bot, gaining a fundamental understanding of chatbot creation.
 
 ⚪ Integrate with Amazon Connect: Participants should learn how to seamlessly integrate their Lex bot with an Amazon Connect instance, making their chatbot available for customer interactions.
