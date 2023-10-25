@@ -1,6 +1,6 @@
 # Amazon Polly Lex Chat
 
-Welcome to the Amazon Polly Lex Chat project that I made following an AWS workshop. I'll be walking you through the process of deploying an Amazon Lex bot and demonstrate how to integrate Speech Synthesis Markup Language (SSML) with Amazon Polly to create lifelike speech.
+Welcome to the Amazon Polly Lex Chat project that I made following an AWS workshop. I'll be walking you through what I did in order to deploy an Amazon Lex bot and demonstrate how to integrate Speech Synthesis Markup Language (SSML) with Amazon Polly to create lifelike speech.
 
 ## Goals
 
